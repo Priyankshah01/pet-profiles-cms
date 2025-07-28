@@ -8,7 +8,7 @@ $pet = getPetById($pdo, $id);
 
 <?php if ($pet): ?>
   <div class="pet-detail">
-    <img src="images/<?= htmlspecialchars($pet['photo']) ?>" alt="<?= htmlspecialchars($pet['name']) ?>">
+    <img src="/uploads/<?= htmlspecialchars($pet['photo']) ?>" alt="<?= htmlspecialchars($pet['name']) ?>">
     <h2><?= htmlspecialchars($pet['name']) ?></h2>
     <h4>Breed: <?= htmlspecialchars($pet['breed']) ?></h4>
     <p><?= nl2br(htmlspecialchars($pet['story'])) ?></p>

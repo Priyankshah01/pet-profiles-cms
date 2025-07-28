@@ -41,7 +41,7 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(44, 44, 44, 0.4)), url("../images/whiskers.jpg");
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(44, 44, 44, 0.4)), url("../uploads/whiskers.jpg");
   background-size: cover;
   background-position: center;
   color: white;

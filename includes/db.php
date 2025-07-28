@@ -1,25 +1,11 @@
-<!-- <?php
-$host = "localhost";
-$user = "root"; 
-$pass = "";     
-$dbname = "dog_buddy_db";
-
-$conn = new mysqli($host, $user, $pass, $dbname);
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-?> -->
-
 <?php
 // Pet Profiles CMS - Database Connection
 
 // Database configuration
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'pet_profiles_cms');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-
+define('DB_HOST', 'sql100.infinityfree.com'); 
+define('DB_NAME', 'if0_39579936_pet_profiles_cms');        
+define('DB_USER', 'if0_39579936');
+define('DB_PASS', 'Z4cinecuhupy');       
 try {
     // Create PDO connection
     $pdo = new PDO("mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=utf8mb4", DB_USER, DB_PASS);

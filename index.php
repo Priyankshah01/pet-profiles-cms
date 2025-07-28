@@ -10,17 +10,17 @@
 
     <section class="features">
       <div class="feature-card">
-        <img src="images/paw-icon.png" alt="🐾 Paw icon" class="feature-icon">
+        <img src="uploads/paw-icon.png" alt="🐾 Paw icon" class="feature-icon">
         <h3>Create Profiles</h3>
         <p>Build beautiful profiles for all your pets with photos, bios, and fun facts.</p>
       </div>
       <div class="feature-card">
-        <img src="images/gallery-icon.png" alt="Gallery icon" class="feature-icon">
+        <img src="uploads/gallery-icon.png" alt="Gallery icon" class="feature-icon">
         <h3>Photo Gallery</h3>
         <p>Showcase your pet's best moments in our dedicated gallery space.</p>
       </div>
       <div class="feature-card">
-        <img src="images/community-icon.png" alt="Community icon" class="feature-icon">
+        <img src="uploads/community-icon.png" alt="Community icon" class="feature-icon">
         <h3>Pet Community</h3>
         <p>Connect with other pet lovers and share stories about your furry family.</p>
       </div>
@@ -29,7 +29,7 @@
     <section class="pet-spotlight">
       <h2>Pet of the Week</h2>
       <div class="spotlight-card">
-        <img src="images/whiskers.jpg" alt="Featured pet">
+        <img src="/uploads/whiskers.jpg" alt="Featured pet">
         <div class="spotlight-content">
           <h3>Meet Whiskers</h3>
           <p class="pet-breed">Domestic Shorthair Cat</p>
