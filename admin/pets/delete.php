@@ -1,7 +1,7 @@
 <?php
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
-require_once('../../db.php');
+require_once('../../includes/db.php');
 
 // Check if ID is passed
 if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {

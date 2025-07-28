@@ -13,6 +13,7 @@
     <nav>
       <a href="index.php">Home</a>
       <a href="gallery.php">Gallery</a>
+      <a href="/admin/login.php">Login</a>
     </nav>
   </header>
   <main>
